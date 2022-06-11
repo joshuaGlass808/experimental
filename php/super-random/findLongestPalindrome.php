@@ -2,8 +2,7 @@
 
 function findLargestPalindrome(string $str): string
 {
-    $length = strlen($str);
-    if ($length === 1) {
+    if (strlen($str) === 1) {
         return $str;
     }
 
@@ -12,6 +11,7 @@ function findLargestPalindrome(string $str): string
     $strArr = str_split($str);
     foreach ($strArr as $i => $char) {
         $tempStr = $char;
+
         foreach ($strArr as $k => $sChar) {
            if ($i === $k) {
                if ($pLen === 0) {
