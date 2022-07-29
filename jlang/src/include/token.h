@@ -10,7 +10,7 @@ typedef struct TOKEN_STRUCT
         TOKEN_RPAREN,
         TOKEN_LBRACE,
         TOKEN_RBRACE,
-        TOKEN_TYPE_DECLARATION_ASSIGNMENT,
+        TOKEN_COLON,
         TOKEN_COMMA,
         TOKEN_LT,
         TOKEN_GT,
