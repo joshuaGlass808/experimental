@@ -15,6 +15,8 @@ lexer_J* init_lexer(char* src);
 
 void lexer_advance(lexer_J* lexer);
 
+char lexer_peek(lexer_J* lexer, int offset);
+
 token_J* lexer_advance_with(lexer_J* lexer, token_J* token);
 
 void lexer_skip_whitespace(lexer_J* lexer);

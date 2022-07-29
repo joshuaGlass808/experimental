@@ -1,4 +1,7 @@
-int main()
+#include "include/jlang.h"
+#include "include/lexer.h"
+
+void jlang_compile(char* src)
 {
-  return 0;
+  lexer_J* lexer = init_lexer(src);
 }
