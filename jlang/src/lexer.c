@@ -39,8 +39,8 @@ token_J* lexer_parse_id(lexer_J* lexer)
 {
     char* value = calloc(1, sizeof(char));
     while (isalpha(lexer->c)) {
-        value = realloc(value, strlen(value) + 2) * sizeof(char));
-        strcat(value, (char[]){c, 0});
+        value = realloc(value, (strlen(value) + 2) * sizeof(char));
+        strcat(value, (char[]){lexer->c, 0});
         lexer_advance(lexer);
     }
 
