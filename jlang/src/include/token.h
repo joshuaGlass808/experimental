@@ -22,4 +22,8 @@ typedef struct TOKEN_STRUCT
 } token_J;
 
 token_J* init_token(char* value, int type);
+
+static const char* token_type_to_str(int type);
+
+char* token_to_str(token_J* token);
 #endif
