@@ -1,3 +1,0 @@
-main = (arg: int, arg: array<string>): int => {
-    return 0;
-}

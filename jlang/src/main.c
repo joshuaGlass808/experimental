@@ -1,16 +1,16 @@
-#include <stdio.h>
 #include "include/jlang.h"
-#include "include/lexer.h"
-#include "include/io.h"
+#include <stdio.h>
+
 
 int main(int argc, char* argv[])
 {
-    if (argc < 2) {
-        printf("Please specify file.\n\n");
-        return 1;
-    }
+  if (argc < 2)
+  {
+    fprintf(stderr,"\033[1;31mPlease specify input file.\033[0m\n");
+    return 1;
+  }
 
-    jlang_compile_src_file(argv[1]);
+  jlang_compile_file(argv[1]);
 
-    return 0;
+  return 0;
 }

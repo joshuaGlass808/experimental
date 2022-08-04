@@ -1,3 +1,4 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
@@ -7,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 29 01:29:46 2022
+# Make data base, printed on Wed Aug  3 15:39:37 2022
 
 # Variables
 
@@ -31,8 +32,6 @@ PWD = /home/joshglass/experimental
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
-# environment
-OLDPWD = /home/joshglass/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -100,7 +99,7 @@ MOTD_SHOWN = pam
 # automatic
 ^F = $(notdir $^)
 # environment
-SSH_CLIENT = 65.50.143.145 49776 22
+SSH_CLIENT = 65.50.143.145 57876 22
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
@@ -128,7 +127,7 @@ _ = /home/joshglass/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-62e82edf-b86c-47b4-9b29-be19960fe484.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-2bf4da01-2467-42fb-af69-e581cd363667.sock
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -136,7 +135,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/joshglass
 # environment
-XDG_SESSION_ID = 10
+XDG_SESSION_ID = 889
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -146,9 +145,9 @@ SUFFIXES :=
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SSH_CONNECTION = 65.50.143.145 49776 45.33.40.187 22
+SSH_CONNECTION = 65.50.143.145 57876 45.33.40.187 22
 # variable set hash-table stats:
-# Load=68/1024=7%, Rehash=0, Collisions=2/95=2%
+# Load=67/1024=7%, Rehash=0, Collisions=2/94=2%
 
 # Pattern-specific Variable Values
 
@@ -156,9 +155,9 @@ SSH_CONNECTION = 65.50.143.145 49776 45.33.40.187 22
 
 # Directories
 
-# . (device 2048, inode 262305): 9 files, no impossibilities.
+# . (device 2048, inode 262305): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -208,12 +207,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 131 B / avg = 7 B
-# current buf: size = 8162 B / used = 131 B / count = 17 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 139 B / avg = 7 B
+# current buf: size = 8162 B / used = 139 B / count = 18 / avg = 7 B
 
-# strcache performance: lookups = 20 / hit rate = 15%
+# strcache performance: lookups = 21 / hit rate = 14%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/20=0%
-# Finished Make data base on Fri Jul 29 01:29:46 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
+# Finished Make data base on Wed Aug  3 15:39:37 2022
 
  
