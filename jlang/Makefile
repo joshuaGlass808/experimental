@@ -21,7 +21,7 @@ $(asm_templates):
 	mkdir -p src/include/asm/templates
 	xxd -i src/asm/templates/$*.asm > src/include/asm/templates/$@
 
-libtac.a: $(objects)
+libjlang.a: $(objects)
 	ar rcs $@ $^
 
 %.o: %.c include/%.h
