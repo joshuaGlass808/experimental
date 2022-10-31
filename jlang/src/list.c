@@ -15,19 +15,13 @@ list_J* init_list(size_t item_size)
 void list_push(list_J* list, void* item)
 {
   list->size += 1;
-
-  if (!list->items)
-    list->items = calloc(1, list->item_size);
-  else
-    list->items = realloc(list->items, (list->size * list->item_size));
-
+  list->items = (!list->items) ? calloc(1, list->item_size) : realloc(list->item_size);
   list->items[list->size-1] = item;
 }
 
 int list_indexof_str(list_J* list, char* item)
 {
-  for (unsigned int i = 0; i < list->size; i++)
-  {
+  for (unsigned int i = 0; i < list->size; i++) {
     if (!list->items[i])
       continue;
 
